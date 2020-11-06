@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+	padding: 0;
+    background-image: url(assets/img/zelda.jpg);
+    background-attachment: fixed;
+}
+
+audio {
+	margin-left: 40%;
+	margin-top: 0.5%;
+	height: 20px;
+}
+
+#grille {
+	width: 1200px;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 0.5%;
+	margin-bottom: 1.5%;
+	border-radius: 5px;
+	display: block;
+	box-shadow: 10px 10px 10px black;
+	border: solid 5px;
+}
+
+.finish{
+	height: 350px;
+	width: auto;
+	position: absolute;
+	margin-left: 85%;
+	margin-top: 12%;
+}
+
+.poiscom{
+	position: absolute;
+	width: 150px;
+	height: auto;
+	margin-top: 32%;
+}
+
+
+.btn  {
+
+	display: inline-block;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    background: #07a338;/*Button Color*/
+    color: #086626;/*Use Darker Color*/
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #063d17;
+    border-radius: 3px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 2.5%;    
+    margin-top: 4%;           
+}
+
+#button{
+
+	margin-top: 7%;
+	margin-left: 2%;
+	position: absolute;
+}
+
+
+.btn:active { 
+	-ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+
+
+.displayNone { display: none; }
+
+.dices {
+	position: absolute;
+	height: 160px;
+	width: auto;
+	top: 29%;
+}
+
+#dice-one { left: 0%; }
+#dice-two { left: 0%; top: 45%; }
+
+.navi {
+	position: absolute;
+	z-index: 2;
+	width: 90px;
+	height: 90px;
+}
+
+#navi-yellow { top: 100px; }
+#navi-pink { top: 220px; }
+#navi-blue { top: 340px; }
+#navi-green { top: 460px; }
+#navi-red { top: 600px; }
